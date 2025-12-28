@@ -66,4 +66,4 @@ nav:
   - 'تست‌ها':
     - tests/index.md
     - tests/audiometery.md
-    - tests/telemetry.md
+    - tests/tympanometry.md
