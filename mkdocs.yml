@@ -1,0 +1,69 @@
+site_name: 'کلینیک شنوایی نفیس'
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/yshekouhi/nafis
+theme:
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  language: fa
+  name: material
+  custom_dir: overrides
+  direction: rtl
+  font: false
+  palette:
+    primary: white  
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs 
+    - navigation.prune 
+    - navigation.sections 
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - header.autohide
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - blog
+  - social
+  - tags:
+      listings_map:
+        custom-id:
+          toc: true  
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  homepage: https://irtlv.ir
+  social:
+    - icon: material/instagram 
+      link: https://fosstodon.org/@squidfunk
+    - icon: material/youtube 
+      link: https://fosstodon.org/@squidfunk
+    - icon: simple/telegram 
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+
+copyright: Copyright &copy; 2016 - 2020 Martin Donath  
+
+markdown_extensions:
+  - toc:
+      title: مطالب
+      toc_depth: 2
+
+nav:
+  - 'صفحه اصلی': index.md
+  - 'بیماری‌ها':
+    - diseases/page-1.md
+    - diseases/page-2.md
+  - 'تست‌ها':
+    - tests/index.md
+    - tests/audiometery.md
+    - tests/telemetry.md

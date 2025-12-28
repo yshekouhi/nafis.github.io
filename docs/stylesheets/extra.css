@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: "../fonts/Vazirmatn-Regular.woff2";
+}
+
+:root {
+  --md-text-font: "Vazirmatn"; 
+}
