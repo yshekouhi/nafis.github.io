@@ -67,3 +67,4 @@ nav:
     - tests/index.md
     - tests/audiometery.md
     - tests/tympanometry.md
+  - 'درباره ما': about.md
